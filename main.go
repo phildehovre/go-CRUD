@@ -25,6 +25,10 @@ func main() {
 	movies = append(movies, Movie{ID: "1", Isbn: "438227", title: "Movie One", Director: &Director{Firstname: "John", Lastname: "Doe"}})
 	movies = append(movies, Movie{ID: "2", Isbn: "437459", title: "Movie Two", Director: &Director{Firstname: "Jane", Lastname: "Doe"}})
 
+	for count := 0; count < 8; count++ {
+		fmt.Println(count)
+	}
+
 	// func getMovies() {
 	// 	fmt.Printf("Getting movies %s", movies)
 	// }
